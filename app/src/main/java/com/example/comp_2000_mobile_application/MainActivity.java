@@ -1,6 +1,8 @@
 package com.example.comp_2000_mobile_application;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -20,5 +22,11 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void loginUser (View v) {
+        // logs in user and sends them to homepage
+        Intent i = new Intent(this, homepage.class);
+        startActivity(i);
     }
 }
