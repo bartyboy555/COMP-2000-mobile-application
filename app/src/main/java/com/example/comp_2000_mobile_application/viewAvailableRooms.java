@@ -1,6 +1,8 @@
 package com.example.comp_2000_mobile_application;
 
+
 import android.os.Bundle;
+import androidx.appcompat.widget.Toolbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -20,5 +22,9 @@ public class viewAvailableRooms extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
     }
+
+
+
 }
