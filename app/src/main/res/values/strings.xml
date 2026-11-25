@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">COMP-2000-mobile-application</string>
+    <string name="companyName">company name</string>
+    <string name="viewAvailableRoomsTitle">Viewing available rooms</string>
 </resources>

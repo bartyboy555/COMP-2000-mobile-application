@@ -10,7 +10,7 @@
         android:id="@+id/companyName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="comp2000"
+        android:text="@string/companyName"
         android:textSize="20sp"
         android:textColor="@android:color/white"
         android:layout_centerVertical="true"
@@ -23,7 +23,7 @@
         android:layout_height="48dp"
         android:src="@drawable/ic_account_box"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:contentDescription="Account"
+        android:contentDescription="AccountButton"
         android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="8dp" />
