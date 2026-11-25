@@ -29,4 +29,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, homepage.class);
         startActivity(i);
     }
+
+    public void launchSignUp (View v) {
+        // logs in user and sends them to homepage
+        Intent i = new Intent(this, signUp.class);
+        startActivity(i);
+    }
 }
