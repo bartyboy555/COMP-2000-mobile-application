@@ -8,9 +8,9 @@ public class UserModel {
      // constructors
 
 
-    public UserModel(String lastName, String firstName, String email, String password, boolean isManager) {
-        this.lastName = lastName;
+    public UserModel(String firstName, String lastName, String email, String password, boolean isManager) {
         this.firstName = firstName;
+        this.lastName = lastName;
         this.email = email;
         this.password = password;
         this.isManager = isManager;
